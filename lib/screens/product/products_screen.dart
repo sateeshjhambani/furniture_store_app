@@ -19,6 +19,7 @@ class ProductsScreen extends StatelessWidget {
       elevation: 0,
       centerTitle: false,
       title: Text('Dashboard'),
+      backgroundColor: kPrimaryColor,
       actions: <Widget>[
         IconButton(
           icon: SvgPicture.asset("assets/icons/notification.svg"),
